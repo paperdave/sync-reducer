@@ -2,7 +2,6 @@
   "compilerOptions": {
     "module": "commonjs",
     "noImplicitAny": true,
-    "removeComments": true,
     "lib": [
       "es2015",
       "es2016",
@@ -11,7 +10,9 @@
       "es2019",
       "es2020",
       "dom"
-    ]
+    ],
+    "declaration": true,
+    "sourceMap": true
   },
   "exclude": [
     "node_modules/**",

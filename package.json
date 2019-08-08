@@ -1,6 +1,6 @@
 {
   "name": "sync-reducer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Creates a reducer with the same properties of the passed reducer, but syncs it's value to a Storage like localStorage",
   "main": "index.js",
   "devDependencies": {
@@ -10,7 +10,9 @@
     "build": "tsc"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.js.map",
+    "index.d.ts"
   ],
   "repository": {
     "type": "git",
