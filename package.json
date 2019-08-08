@@ -1,11 +1,8 @@
 {
   "name": "sync-reducer",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Creates a reducer with the same properties of the passed reducer, but syncs it's value to a Storage like localStorage",
   "main": "index.js",
-  "dependencies": {
-    "@reverse/debounce": "^1.0.3"
-  },
   "devDependencies": {
     "typescript": "^3.5.3"
   },
