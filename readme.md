@@ -9,7 +9,7 @@ npm install sync-reducer
 
 ## Usage
 ```js
-import { syncReducer } from 'sync-reducer';
+import syncReducer from 'sync-reducer';
 
 function reducer(state, action) {
   return state;
